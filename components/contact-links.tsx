@@ -10,8 +10,8 @@ const contacts = [
   },
   {
     label: 'Instagram',
-    value: '@simply_natasha_a',
-    href: 'https://instagram.com/simply_natasha_a',
+    value: '@simply_natash_a',
+    href: 'https://instagram.com/simply_natash_a',
     icon: AtSign,
     external: true,
   },
