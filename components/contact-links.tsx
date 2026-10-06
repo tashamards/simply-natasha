@@ -1,4 +1,4 @@
-import { ArrowUpRight, AtSign, Mail } from 'lucide-react'
+import { ArrowUpRight, AtSign, Mail, Music2 } from 'lucide-react'
 
 const contacts = [
   {
@@ -13,6 +13,13 @@ const contacts = [
     value: '@simply_natash_a',
     href: 'https://instagram.com/simply_natash_a',
     icon: AtSign,
+    external: true,
+  },
+  {
+    label: 'TikTok',
+    value: '@natasha_mards',
+    href: 'https://www.tiktok.com/@natasha_mards',
+    icon: Music2,
     external: true,
   },
 ]
