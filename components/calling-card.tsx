@@ -1,3 +1,4 @@
+import { ArrowUpRight } from 'lucide-react'
 import { ContactLinks } from '@/components/contact-links'
 
 const roles = ['Digital Marketer', 'Content Creator', 'Brand Strategist']
@@ -35,6 +36,22 @@ export function CallingCard() {
         </h2>
         <ContactLinks />
       </section>
+
+      <footer className="mt-10 flex items-center justify-between gap-4 border-t border-border pt-6">
+        <p className="font-serif text-xl italic text-foreground">
+          Let&apos;s work<span className="text-primary">.</span>
+        </p>
+        <a
+          href="mailto:natashamards@gmail.com?subject=Let%27s%20work"
+          className="group inline-flex items-center gap-1.5 rounded-full bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+        >
+          Get in touch
+          <ArrowUpRight
+            className="size-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+            aria-hidden="true"
+          />
+        </a>
+      </footer>
     </article>
   )
 }
