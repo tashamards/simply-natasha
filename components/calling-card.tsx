@@ -35,6 +35,12 @@ export function CallingCard() {
         </h2>
         <ContactLinks />
       </section>
+
+      <footer className="mt-10 border-t border-border pt-6">
+        <p className="font-serif text-xl italic text-foreground">
+          Let&apos;s work<span className="text-primary">.</span>
+        </p>
+      </footer>
     </article>
   )
 }
