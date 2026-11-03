@@ -55,7 +55,32 @@
   --radius: 0.75rem;
 }
 
+.theme-light {
+  color-scheme: light;
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.13 0 0);
+  --card: oklch(0.98 0.008 350);
+  --card-foreground: oklch(0.13 0 0);
+  --primary: oklch(0.62 0.22 355);
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(0.97 0.015 350);
+  --secondary-foreground: oklch(0.13 0 0);
+  --muted: oklch(0.97 0.015 350);
+  --muted-foreground: oklch(0.42 0.02 350);
+  --border: oklch(0.13 0 0 / 12%);
+  --input: oklch(0.13 0 0 / 12%);
+  --ring: oklch(0.62 0.22 355);
+}
+
 @layer base {
+  html {
+    scroll-padding-top: 4rem;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
   * {
     @apply border-border outline-ring/50;
   }

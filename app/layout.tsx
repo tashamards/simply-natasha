@@ -12,9 +12,9 @@ const instrumentSerif = Instrument_Serif({
 })
 
 export const metadata: Metadata = {
-  title: 'Simply_Natasha — Digital Marketer, Content Creator & Brand Strategist',
+  title: 'Simply_Natasha — Digital Marketer, Content Creator, Brand Strategist & DJ',
   description:
-    'I create content, build digital brands and help connect businesses with audiences through social media and creative marketing.',
+    'I create content, build digital brands and help connect businesses with audiences through social media and creative marketing. Book DJ Simply Natasha.',
   generator: 'v0.app',
   icons: {
     icon: [
